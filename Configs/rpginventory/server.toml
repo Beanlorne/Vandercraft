@@ -1,0 +1,93 @@
+# Don't change this! Version used to track needed updates.
+version = 0
+enable_item_bounding_in_creative = false
+allow_attacking_with_non_attack_items = true
+should_keep_loadout_items_on_death = true
+allow_equipment_changes = true
+destroy_dropped_items_on_death = false
+
+[handSlotOverhaul]
+enable_hand_slot_overhaul = true
+enable_alternative_hand_slots = true
+always_allow_toggling_two_handed_stance = false
+are_hand_items_restricted_to_item_tags = true
+
+[handSlotOverhaul.staminaAttributesCompat]
+swapping_hand_items_requires_stamina = true
+swapping_hand_items_requires_stamina_cost = false
+swapping_main_hand_items_stamina_cost = 1.0
+swapping_off_hand_items_stamina_cost = 1.0
+swapping_both_hand_items_stamina_cost_multiplier = 0.5
+sheathing_hand_items_requires_stamina = true
+sheathing_hand_items_requires_stamina_cost = false
+sheathing_hand_items_stamina_cost = 1.0
+toggling_two_handed_stance_requires_stamina = true
+toggling_two_handed_stance_requires_stamina_cost = false
+toggling_two_handed_stance_stamina_cost = 1.0
+
+[statusEffects]
+keep_inventory_status_effect_identifier = "variousstatuseffects:keep_inventory"
+civilisation_status_effect_identifier = "variousstatuseffects:civilisation"
+wilderness_status_effect_identifier = "variousstatuseffects:wilderness"
+building_mode_status_effect_identifier = "scriptblocks:building_mode"
+needs_two_handing_status_effect_identifier = "variousstatuseffects:needs_two_handing"
+no_attack_item_status_effect_identifier = "variousstatuseffects:no_attack_item"
+
+[inventorySlots]
+disable_inventory_crafting_slots = false
+inventory_crafting_slots_x_offset = 97
+inventory_crafting_slots_y_offset = 42
+default_spell_slot_amount = 1
+head_slot_x_offset = 8
+head_slot_y_offset = 36
+chest_slot_x_offset = 8
+chest_slot_y_offset = 54
+legs_slot_x_offset = 8
+legs_slot_y_offset = 72
+feet_slot_x_offset = 8
+feet_slot_y_offset = 90
+offhand_slot_x_offset = 26
+offhand_slot_y_offset = 108
+hand_slot_x_offset = 8
+hand_slot_y_offset = 108
+alternative_hand_slot_x_offset = 59
+alternative_hand_slot_y_offset = 108
+alternative_offhand_slot_x_offset = 77
+alternative_offhand_slot_y_offset = 108
+is_belt_slot_enabled = true
+belt_slot_x_offset = 77
+belt_slot_y_offset = 90
+is_gloves_slot_enabled = true
+gloves_slot_x_offset = 77
+gloves_slot_y_offset = 72
+is_necklace_slot_enabled = true
+necklace_slot_x_offset = 52
+necklace_slot_y_offset = 18
+is_ring_1_slot_enabled = true
+ring_1_slot_x_offset = 77
+ring_1_slot_y_offset = 36
+is_ring_2_slot_enabled = false
+ring_2_slot_x_offset = 77
+ring_2_slot_y_offset = 18
+is_relic_slot_enabled = true
+relic_slot_x_offset = 77
+relic_slot_y_offset = 54
+is_shoulders_slot_enabled = true
+shoulders_slot_x_offset = 33
+shoulders_slot_y_offset = 18
+spell_1_slot_x_offset = 98
+spell_1_slot_y_offset = 90
+spell_2_slot_x_offset = 116
+spell_2_slot_y_offset = 90
+spell_3_slot_x_offset = 134
+spell_3_slot_y_offset = 90
+spell_4_slot_x_offset = 152
+spell_4_slot_y_offset = 90
+spell_5_slot_x_offset = 98
+spell_5_slot_y_offset = 108
+spell_6_slot_x_offset = 116
+spell_6_slot_y_offset = 108
+spell_7_slot_x_offset = 134
+spell_7_slot_y_offset = 108
+spell_8_slot_x_offset = 152
+spell_8_slot_y_offset = 108

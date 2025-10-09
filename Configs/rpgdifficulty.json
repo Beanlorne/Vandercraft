@@ -5,7 +5,7 @@
   "timeFactor": 0.05,
   "heightDistance": 30,
   "heightFactor": 0.1,
-  "maxFactorHealth": 4.0,
+  "maxFactorHealth": 6.0,
   "maxFactorDamage": 3.0,
   "maxFactorProtection": 3.0,
   "maxFactorSpeed": 2.0,
